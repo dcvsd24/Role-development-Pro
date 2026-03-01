@@ -5,6 +5,9 @@ script_cooldown_record.json
 completed_tasks.json
 config.json
 
+# 本地资源文件
+pathing/
+
 # 临时文件
 *.tmp
 *.log
