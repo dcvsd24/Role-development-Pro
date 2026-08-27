@@ -1,0 +1,2394 @@
+[
+    {
+        "weapon": "松籁响起之时",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "终末嗟叹之诗",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "沉重号角",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "风鹰剑",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "幽夜华尔兹",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "暗巷闪光",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "雪葬的星银",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "腐殖之剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "沉重号角",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "苍翠猎弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "宗室长剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "钟剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "西风剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "绝弦",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "西风秘典",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "宗室秘法录",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "鸦羽弓",
+        "star rating": "三星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "魔导绪论",
+        "star rating": "三星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "铁影阔剑",
+        "star rating": "三星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "冷刃",
+        "star rating": "三星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "口袋魔导书",
+        "star rating": "二星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "银剑",
+        "star rating": "二星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "学徒笔记",
+        "star rating": "一星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "无锋剑",
+        "star rating": "一星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "沉重号角",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "护摩之杖",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "天空之翼",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "天空之傲",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "天空之刃",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "天空之卷",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "嘟嘟可故事集",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "暗巷的酒与诗",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "风花之颂",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "降临之剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "决斗之枪",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "黑剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "祭礼大剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "笛剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "祭礼弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "流浪乐章",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "神射手之誓",
+        "star rating": "三星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "讨龙英杰谭",
+        "star rating": "三星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "沐浴龙血的剑",
+        "star rating": "三星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "黎明神剑",
+        "star rating": "三星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "历练的猎弓",
+        "star rating": "二星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "佣兵重剑",
+        "star rating": "二星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "猎弓",
+        "star rating": "一星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "训练大剑",
+        "star rating": "一星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "地脉的旧枝",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "苍古自由之誓",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "天空之脊",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "阿莫斯之弓",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "狼的末路",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "四风原典",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "狼牙",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "混沌装置",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "辰砂之纺锤",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "混沌装置",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "暗巷猎手",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "忍冬之果",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "西风长枪",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "西风大剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "祭礼剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "宗室长弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "西风猎弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "宗室大剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "祭礼残章",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "反曲弓",
+        "star rating": "三星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "异世界行记",
+        "star rating": "三星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "白铁大剑",
+        "star rating": "三星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "旅行剑",
+        "star rating": "三星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "铁尖枪",
+        "star rating": "二星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "新手长枪",
+        "star rating": "一星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "混沌装置",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "息灾",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "磐岩结绿",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "无工之剑",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "龙脊长枪",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "雾虚花粉",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "宗室猎枪",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "黑岩斩刀",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "匣里灭辰",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "昭心",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "试作澹月",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "试作金珀",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "黑岩刺枪",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "试作斩岩",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "雨裁",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "信使",
+        "star rating": "三星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "甲级宝珏",
+        "star rating": "三星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "钺矛",
+        "star rating": "三星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "吃虎鱼刀",
+        "star rating": "三星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "以理服人",
+        "star rating": "三星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "雾虚花粉",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "斫峰之刃",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "和璞鸢",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "落霞",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "千岩古剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "匣里龙吟",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "黑岩战弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "匣里日月",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "弓藏",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "流月针",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "黑岩长剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "白影剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "黑岩绯玉",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "弹弓",
+        "star rating": "三星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "翡玉法球",
+        "star rating": "三星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "白缨枪",
+        "star rating": "三星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "暗铁剑",
+        "star rating": "三星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "猎兵祭刀",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "贯虹之槊",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "尘世之锁",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "无垠蔚蓝之歌",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "衔珠海皇",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "千岩长枪",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "螭骨剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "钢轮弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "试作星镰",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "铁蜂刺",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "试作古华",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "万国诸海图谱",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "黑缨枪",
+        "star rating": "三星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "飞天大御剑",
+        "star rating": "三星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "飞天御剑",
+        "star rating": "三星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "有乐御簾切",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "混沌机关",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "薙草之稻光",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "混沌机关",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "雾切之回光",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "混沌机关",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "「渔获」",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "混沌机关",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "桂木斩长正",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "混沌机关",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "喜多院十文字",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "混沌机关",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "天目影打刀",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "混沌机关",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "不灭月华",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "黯淡棱镜",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "飞雷之弦振",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "黯淡棱镜",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "曚云之月",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "黯淡棱镜",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "掠食者",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "黯淡棱镜",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "破魔之弓",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "黯淡棱镜",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "白辰之环",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "黯淡棱镜",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "神乐之真意",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "隐兽指爪",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "赤角石溃杵",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "隐兽指爪",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "冬极白星",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "隐兽指爪",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "证誓之明瞳",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "隐兽指爪",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "断浪长鳍",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "隐兽指爪",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "恶王丸",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "隐兽指爪",
+            "weapons material": "远海夷地的瑚枝"
+        }
+    },
+    {
+        "weapon": "若水",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "晦暗刻像",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "波乱月白经津",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "晦暗刻像",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "风信之锋",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "晦暗刻像",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "盈满之实",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "晦暗刻像",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "笼钓瓶一心",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "晦暗刻像",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "图莱杜拉的回忆",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "失活菌核",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "猎人之径",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "失活菌核",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "流浪的晚星",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "失活菌核",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "王下近侍",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "失活菌核",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "竭泽",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "失活菌核",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "赤沙之杖",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "混沌容器",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "玛海菈的水色",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "混沌容器",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "森林王器",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "混沌容器",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "贯月矢",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "混沌容器",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "原木刀",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "混沌容器",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "千夜浮梦",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "破缺棱晶",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "圣显之钥",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "破缺棱晶",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "东花坊时雨",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "破缺棱晶",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "西福斯的月光",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "破缺棱晶",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "苇海信标",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "残毁的横脊",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "裁叶萃光",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "残毁的横脊",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "聊聊棒",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "史莱姆凝液",
+            "common_material2": "残毁的横脊",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "饰铁之花",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "残毁的横脊",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "烈阳之嗣",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "来自何处的待放之花",
+            "weapons material": "烈日威权的残响"
+        }
+    },
+    {
+        "weapon": "鹮穿之喙",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "褪色红绸",
+            "common_material2": "来自何处的待放之花",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "碧落之珑",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "来自何处的待放之花",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "峡湾长歌",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "来自何处的待放之花",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "香韵奏者",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "白雨心弦",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "静水流涌之辉",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "万世流涌大典",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "船坞长剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "纯水流华",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "海渊终曲",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "浊水的一滴",
+            "weapons material": "纯圣露滴的滤渣"
+        }
+    },
+    {
+        "weapon": "裁断",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "最初的大魔术",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "冷寂迸音",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "水仙十字之剑",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "勘探钻机",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "静谧之曲",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "灰河渡手",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "隙间之核",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "赦罪",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "老旧的役人怀表",
+            "weapons material": "悠古弦音的残章"
+        }
+    },
+    {
+        "weapon": "金流监督",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "老旧的役人怀表",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "「究极霸王超级魔剑」",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "老旧的役人怀表",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "便携动力锯",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "老旧的役人怀表",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "公义的酬报",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "老旧的役人怀表",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "浪影阔剑",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "老旧的役人怀表",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "柔灯挽歌",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "残毁的剑柄",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "赤月之形",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "啮合齿轮",
+            "common_material2": "残毁的剑柄",
+            "weapons material": "无垢之海的苦盏"
+        }
+    },
+    {
+        "weapon": "筑云",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "残毁的剑柄",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "息燧之笛",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "残毁的剑柄",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "支离轮光",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "冷裂壳块",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "焚曜千阳",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "秘源轴",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "冲浪时光",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "意志破碎的残片",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "乘浪的回旋",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "意志破碎的残片",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "弥坚骨",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "意志破碎的残片",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "撼地者",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "聚燃的石块",
+            "weapons material": "贡祭炽心的惶恐"
+        }
+    },
+    {
+        "weapon": "溢彩心念",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "冷裂壳块",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "祭星者之望",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "意志破碎的残片",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "山王长牙",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "聚燃的石块",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "拾慧铸熔",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "冷裂壳块",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "厄水之祸",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "折光的胚芽",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "镇山之钉",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "聚燃的石块",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "木棉之环",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "破损的面具",
+            "common_material2": "聚燃的石块",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "虹的行迹",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "折光的胚芽",
+            "weapons material": "谵妄圣主的朽败"
+        }
+    },
+    {
+        "weapon": "苍耀",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "折光的胚芽",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "星鹫赤羽",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "折光的胚芽",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "岩峰巡歌",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "秘源轴",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "寝正月初晴",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "聚燃的石块",
+            "weapons material": "鸣神御灵的明惠"
+        }
+    },
+    {
+        "weapon": "且住亭御咄",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "破旧的刀镡",
+            "common_material2": "折光的胚芽",
+            "weapons material": "今昔剧画之恶尉"
+        }
+    },
+    {
+        "weapon": "超越之匙",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "残损的月铁",
+            "weapons material": "终北遗嗣的哀荣"
+        }
+    },
+    {
+        "weapon": "尘光七谕",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "失色的焰剑",
+            "weapons material": "奇巧秘器的残件"
+        }
+    },
+    {
+        "weapon": "灾悔",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "骗骗花蜜",
+            "common_material2": "失光块骨",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "霜结的誓金枝",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "失色的焰剑",
+            "weapons material": "长夜燧火的余烬"
+        }
+    },
+    {
+        "weapon": "狼的武功歌",
+        "star rating": "五星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "深黯的裂眼",
+            "weapons material": "凛风奔狼的始龀"
+        }
+    },
+    {
+        "weapon": "朏魄含光",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "幽雾化形",
+            "weapons material": "漆黑陨铁的一粒"
+        }
+    },
+    {
+        "weapon": "帷间夜曲",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "深黯的裂眼",
+            "weapons material": "终北遗嗣的哀荣"
+        }
+    },
+    {
+        "weapon": "黑蚀",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "霜夜的残照",
+            "weapons material": "高塔孤王的破瓦"
+        }
+    },
+    {
+        "weapon": "黎明破晓之史",
+        "star rating": "五星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "寻宝鸦印",
+            "common_material2": "沉重号角",
+            "weapons material": "狮牙斗士的枷锁"
+        }
+    },
+    {
+        "weapon": "真语秘匣",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "蕈兽孢子",
+            "common_material2": "失光块骨",
+            "weapons material": "绿洲花园的追忆"
+        }
+    },
+    {
+        "weapon": "纺夜天镜",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "霜夜的残照",
+            "weapons material": "奇巧秘器的残件"
+        }
+    },
+    {
+        "weapon": "血染荒城",
+        "star rating": "五星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "幽雾化形",
+            "weapons material": "长夜燧火的余烬"
+        }
+    },
+    {
+        "weapon": "鹤鸣余音",
+        "star rating": "五星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "羽状鳍翅",
+            "weapons material": "雾海云间的铅丹"
+        }
+    },
+    {
+        "weapon": "谧音吹哨",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "霜夜的残照",
+            "weapons material": "奇巧秘器的残件"
+        }
+    },
+    {
+        "weapon": "织月者的曙色",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "失光块骨",
+            "weapons material": "终北遗嗣的哀荣"
+        }
+    },
+    {
+        "weapon": "万能钥匙",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "失光块骨",
+            "weapons material": "终北遗嗣的哀荣"
+        }
+    },
+    {
+        "weapon": "硕果钩",
+        "star rating": "四星",
+        "weapon_type": "双手剑",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "秘源轴",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "圣祭者的辉杖",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "幽雾化形",
+            "weapons material": "长夜燧火的余烬"
+        }
+    },
+    {
+        "weapon": "掘金之锹",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "毁损机轴",
+            "common_material2": "幽雾化形",
+            "weapons material": "长夜燧火的余烬"
+        }
+    },
+    {
+        "weapon": "沙中伟贤的对答",
+        "star rating": "四星",
+        "weapon_type": "长柄武器",
+        "materials": {
+            "common_material": "浮游干核",
+            "common_material2": "羽状鳍翅",
+            "weapons material": "谧林涓露的铜符"
+        }
+    },
+    {
+        "weapon": "霜辰",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "霜夜的残照",
+            "weapons material": "奇巧秘器的残件"
+        }
+    },
+    {
+        "weapon": "天光的纺琴",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "失光块骨",
+            "weapons material": "终北遗嗣的哀荣"
+        }
+    },
+    {
+        "weapon": "乌髓孑灯",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "霜夜的残照",
+            "weapons material": "奇巧秘器的残件"
+        }
+    },
+    {
+        "weapon": "苍纹角杯",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "秘源轴",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "遗祀玉珑",
+        "star rating": "四星",
+        "weapon_type": "法器",
+        "materials": {
+            "common_material": "导能绘卷",
+            "common_material2": "雾虚花粉",
+            "weapons material": "孤云寒林的光砂"
+        }
+    },
+    {
+        "weapon": "虹蛇的雨弦",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "磨损的执凭",
+            "common_material2": "折光的胚芽",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "罗网勾针",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "牢固的箭簇",
+            "common_material2": "幽雾化形",
+            "weapons material": "长夜燧火的余烬"
+        }
+    },
+    {
+        "weapon": "缀花之翎",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "卫从的木哨",
+            "common_material2": "聚燃的石块",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "碎链",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "稚嫩的尖齿",
+            "common_material2": "羽状鳍翅",
+            "weapons material": "神合秘烟的思绪"
+        }
+    },
+    {
+        "weapon": "白湖冬羽",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "嵌合种",
+            "common_material2": "灵生空根",
+            "weapons material": "藏窖灵浆的斟酌"
+        }
+    },
+    {
+        "weapon": "星锋剑",
+        "star rating": "五星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "",
+            "common_material2": "",
+            "weapons material": ""
+        }
+    },
+    {
+        "weapon": "测距规",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "异海凝珠",
+            "common_material2": "浊水的一滴",
+            "weapons material": "悠古弦音的残章",
+            "weapons1_material2": "浊水的一掬",
+            "weapons2_material2": "异海之块",
+            "weapons1_material3": "初生的浊水幻灵",
+            "weapons2_material3": "异色结晶石"
+        }
+    },
+    {
+        "weapon": "引火之源",
+        "star rating": "四星",
+        "weapon_type": "单手剑",
+        "materials": {
+            "common_material": "幻造萤屑",
+            "common_material2": "沉积残片",
+            "weapons material": "苍星军势的始动",
+            "weapons1_material2": "沉积结块",
+            "weapons2_material2": "幻造裂晶",
+            "weapons1_material3": "沉积增生物",
+            "weapons2_material3": "幻造晶鳞石"
+        }
+    },
+    {
+        "weapon": "悬黎千钧",
+        "star rating": "四星",
+        "weapon_type": "弓",
+        "materials": {
+            "common_material": "新兵的徽记",
+            "common_material2": "脆弱的骨片",
+            "weapons material": "漆黑陨铁的一粒",
+            "weapons1_material2": "结实的骨片",
+            "weapons2_material2": "士官的徽记",
+            "weapons1_material3": "石化的骨片",
+            "weapons2_material3": "尉官的徽记"
+        }
+    }
+]

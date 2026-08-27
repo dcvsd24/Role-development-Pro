@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
+<html lang="zh-CN"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>脚本设置</title>
@@ -14,7 +13,7 @@
         }
 
         .modal-box {
-            width: 1100px;
+            width: 1180px;
             max-height: 98vh;
             padding: 18px 22px;
             transform: translate(-80px, -5px);
@@ -51,7 +50,11 @@
 
         .settings-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto;
+            grid-template-areas:
+                "required level wiki"
+                "other function artifact";
             gap: 12px;
             max-height: calc(98vh - 130px);
             overflow-y: auto;
@@ -63,6 +66,24 @@
             border: 1px solid var(--gb-border-strong);
             border-radius: var(--gb-radius-md);
             padding: 12px;
+        }
+
+        /* 第一行方格：等高拉伸，使必填/等级/武器板块顶部对齐且同高 */
+        .panel-required { grid-area: required; align-self: stretch; }
+        .panel-level { grid-area: level; align-self: stretch; }
+        /* 第二行方格：拉伸对齐，使其他选项与功能设置等高 */
+        .panel-other { grid-area: other; align-self: stretch; }
+        .panel-function { grid-area: function; align-self: stretch; }
+
+        /* 圣遗物板块：位于右列下格 */
+        .panel-artifact { grid-area: artifact; align-self: stretch; }
+
+        /* 右侧 Wiki 长条板块：位于右列上格，与第一行其他板块等高 */
+        .panel-wiki {
+            grid-area: wiki;
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
         }
 
         .setting-item {
@@ -83,21 +104,54 @@
             justify-content: flex-end;
         }
 
-        .wiki-weapon-input {
-            display: none;
-            margin-top: 4px;
-            gap: 4px;
-            flex-direction: column;
-        }
-
-        .wiki-weapon-input.show {
-            display: flex;
-        }
-
         .hint-text {
             color: var(--gb-warning);
             font-size: 13px;
             line-height: 1.5;
+        }
+
+        /* 多角色配置标签栏：位于标题同一行 */
+        .char-tabs {
+            display: flex;
+            justify-content: flex-start;
+            gap: 8px;
+            margin-left: 12px;
+            align-items: center;
+        }
+
+        .char-tab.active {
+            border-color: var(--gb-gold, #d4af37);
+            background: rgba(212, 175, 55, 0.18);
+            color: var(--gb-gold, #d4af37);
+        }
+
+        /* 角色分页：默认隐藏，仅显示激活页 */
+        .char-page {
+            display: none;
+        }
+
+        .char-page.active {
+            display: block;
+        }
+
+        /* 标签栏占用高度后压缩内容区，避免底部按钮被裁剪 */
+        .char-page .settings-container {
+            max-height: calc(98vh - 160px);
+            /* 三个角色页内容区高度统一，切换时弹窗尺寸不变 */
+            min-height: calc(98vh - 160px);
+        }
+
+        /* 角色2/3 页仅三个板块：单行布局 */
+        #page-character2 .settings-container,
+        #page-character3 .settings-container {
+            grid-template-rows: auto;
+            grid-template-areas: "required level wiki";
+        }
+
+        /* 角色2/3 页三个板块等高对齐，提高观赏性 */
+        #page-character2 .setting-group,
+        #page-character3 .setting-group {
+            align-self: stretch;
         }
     </style>
 </head>
@@ -106,22 +160,32 @@
         <div class="modal-box gb-glass gb-frame" id="modalBox">
             <div class="modal-header">
                 <div class="title-row">
-                    <div class="gb-title gb-gradient-text">⚙️ 脚本设置配置</div>
+                    <div class="gb-title"><span>⚙️</span> <span class="gb-gradient-text">脚本设置配置</span></div>
+                    <div class="char-tabs">
+                        <button class="gb-btn gb-btn-secondary char-tab active" id="tab-character1">角色1</button>
+                        <button class="gb-btn gb-btn-secondary char-tab" id="tab-character2">角色2</button>
+                        <button class="gb-btn gb-btn-secondary char-tab" id="tab-character3">角色3</button>
+                    </div>
                     <span class="all-zero-hint" id="allZeroHint">角色材料已全部收集完成！请配置新的角色。</span>
                 </div>
                 <div class="title-row">
-                    <span class="countdown-text" id="countdownText">30秒后自动关闭</span>
+                    <span class="countdown-text" id="countdownText">0秒后自动关闭</span>
                     <button class="gb-btn gb-btn-secondary gb-btn-icon" id="cancelBtn">✕</button>
                 </div>
             </div>
 
+            <div class="char-page active" id="page-character1">
             <div class="settings-container gb-scroll">
                 <!-- 必填设置 -->
-                <div class="setting-group">
-                    <div class="gb-group-title gb-gradient-text-gold">📌 必填设置</div>
+                <div class="setting-group panel-required">
+                    <div class="gb-group-title"><span>📌</span> <span class="gb-gradient-text-gold">必填设置</span></div>
                     <div class="setting-item">
                         <label class="gb-label gb-label-required">【角色名称】不要输错角色名称</label>
                         <input type="text" id="Character" class="gb-input" placeholder="请输入角色名称">
+                        <label class="gb-checkbox" style="margin-top: 6px;">
+                            <input type="checkbox" id="openCharacterPicker">
+                            <span style="position: relative;">从遮罩页面选择角色<span style="font-size: 13px; color: var(--gb-muted);">【💡弹出角色筛选页面，点击角色名称后，会自动将角色名称输入到输入框中】</span></span>
+                        </label>
                     </div>
                     <div class="setting-item">
                         <label class="gb-label">【战斗队伍】秘境和boss挑战前切换</label>
@@ -134,8 +198,8 @@
                 </div>
 
                 <!-- 突破等级设置 -->
-                <div class="setting-group">
-                    <div class="gb-group-title gb-gradient-text-gold">📈 目标突破等级（你想要升到多少级）</div>
+                <div class="setting-group panel-level">
+                    <div class="gb-group-title"><span>📈</span> <span class="gb-gradient-text-gold">目标突破等级（你想要升到多少级）</span></div>
                     <div class="setting-item">
                         <label class="gb-label">角色突破目标等级（80级对应90级）</label>
                         <select id="bossRequireCounts" class="gb-select">
@@ -164,29 +228,95 @@
                     </div>
                 </div>
 
-                <!-- Wiki模式设置 -->
-                <div class="setting-group">
-                    <div class="gb-group-title gb-gradient-text-gold">🌐 Wiki模式</div>
+                <!-- 武器设置（右侧上格） -->
+                <div class="setting-group panel-wiki">
+                    <div class="gb-group-title"><span>🗡️</span> <span class="gb-gradient-text-gold" style="margin-left: auto; margin-right: auto; text-align: center;">武器设置</span></div>
                     <div class="setting-item">
-                        <label class="gb-checkbox">
-                            <input type="checkbox" id="enableWikiDataFetch">
-                            <span>启用Wiki模式，从网页获取Boss、天赋怪物、区域特产、天赋书名称</span>
-                        </label>
-                    </div>
-                    <div class="wiki-weapon-input" id="wikiWeaponInput">
-                        <label class="gb-label">【武器名称】用于获取武器材料信息</label>
+                        <label class="gb-label gb-label-required">【武器名称】用于获取武器突破材料与秘境材料名称</label>
                         <input type="text" id="weaponName" class="gb-input" placeholder="请输入武器名称(请不要输错武器名称)">
+                        <label class="gb-checkbox" style="margin-top: 6px;">
+                            <input type="checkbox" id="openWeaponPicker">
+                            <span>从遮罩页面选择武器名称</span>
+                        </label>
                     </div>
                     <div class="setting-item">
                         <label class="hint-text">
-                            💡 未获取角色时使用，默认背包材料为零，获取角色和武器升到90级需要的材料，如果已经获取了角色，请关闭。不关闭会一直获取 [不消耗树脂] 的角色材料。
+                            💡 勾选从遮罩页面选择后会弹出新页面，可选择武器名称，角色名称同理。脚本会自动获取角色装备的武器的当前：等级、突破、天赋、武器等级用于材料需求计算。
+                            <br>📌 武器名称留空则跳过武器材料相关流程。
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 圣遗物设置（右侧下格） -->
+                <div class="setting-group panel-artifact">
+                    <div class="gb-group-title"><span>💠</span> <span class="gb-gradient-text-gold">圣遗物设置</span></div>
+                    <div class="setting-item">
+                        <label class="gb-label">角色圣遗物秘境选择（留空则不执行）</label>
+                        <select id="artifactDomain" class="gb-select">
+                            <option value="">不执行</option>
+                            <optgroup label="🏔蒙德">
+                                <option value="山风的荆冕 | 天之美赐、影中沉凝的幻灭">山风的荆冕 | 天之美赐、影中沉凝的幻灭</option>
+                                <option value="芬德尼尔之顶 | 冰风迷途的勇士、沉沦之心">芬德尼尔之顶 | 冰风迷途的勇士、沉沦之心</option>
+                                <option value="仲夏庭园 | 如雷的盛怒、平息鸣雷的尊者">仲夏庭园 | 如雷的盛怒、平息鸣雷的尊者</option>
+                                <option value="山脊守望 | 千岩牢固、苍白之火">山脊守望 | 千岩牢固、苍白之火</option>
+                                <option value="铭记之谷 | 翠绿之影（风套）、被怜爱的少女">铭记之谷 | 翠绿之影（风套）、被怜爱的少女</option>
+                            </optgroup>
+                            <optgroup label="⛰璃月">
+                                <option value="岩中幽谷 | 来歆余响、辰砂往生录">岩中幽谷 | 来歆余响、辰砂往生录</option>
+                                <option value="华池岩岫 | 昔日宗室之仪、染血的骑士道">华池岩岫 | 昔日宗室之仪、染血的骑士道</option>
+                                <option value="孤云凌霄之处 | 悠古的磐岩、逆飞的流星">孤云凌霄之处 | 悠古的磐岩、逆飞的流星</option>
+                                <option value="无妄引咎密宫 | 渡过烈火的贤人、炽烈的炎之魔女">无妄引咎密宫 | 渡过烈火的贤人、炽烈的炎之魔女</option>
+                            </optgroup>
+                            <optgroup label="⚡稻妻">
+                                <option value="沉眠之庭 | 华馆梦醒形骸记、海染砗磲">沉眠之庭 | 华馆梦醒形骸记、海染砗磲</option>
+                                <option value="椛染之庭 | 绝缘之旗、印追忆之注连">椛染之庭 | 绝缘之旗、印追忆之注连</option>
+                            </optgroup>
+                            <optgroup label="🌱须弥">
+                                <option value="熔铁的孤塞 | 水仙之梦、花海甘露之光">熔铁的孤塞 | 水仙之梦、花海甘露之光</option>
+                                <option value="赤金的城墟 | 乐园遗落之花、沙上楼阁史话">赤金的城墟 | 乐园遗落之花、沙上楼阁史话</option>
+                                <option value="缘觉塔 | 深林的记忆、饰金之梦">缘觉塔 | 深林的记忆、饰金之梦</option>
+                            </optgroup>
+                            <optgroup label="💧枫丹">
+                                <option value="褪色的剧场 | 未竟的遐思、谐律异想断章">褪色的剧场 | 未竟的遐思、谐律异想断章</option>
+                                <option value="临瀑之城 | 回声之林夜话、昔时之歌">临瀑之城 | 回声之林夜话、昔时之歌</option>
+                                <option value="罪祸的终末 | 逐影猎人、黄金剧团">罪祸的终末 | 逐影猎人、黄金剧团</option>
+                            </optgroup>
+                            <optgroup label="🔥纳塔">
+                                <option value="虹灵的净土 | 黑曜秘典、烬城勇者绘卷">虹灵的净土 | 黑曜秘典、烬城勇者绘卷</option>
+                                <option value="荒废砌造坞 | 深廊终曲、长夜之誓">荒废砌造坞 | 深廊终曲、长夜之誓</option>
+                            </optgroup>
+                            <optgroup label="⛄挪德卡莱">
+                                <option value="月童的库藏 | 晨星与月的晓歌、风起之日">月童的库藏 | 晨星与月的晓歌、风起之日</option>
+                                <option value="霜凝的机枢 | 穹境示现之夜、纺月的夜歌">霜凝的机枢 | 穹境示现之夜、纺月的夜歌</option>
+                            </optgroup>
+                            <optgroup label="❄至冬">
+                                <option value="逆悬的冰河 | 血红之证、炉火融炼之心">逆悬的冰河 | 血红之证、炉火融炼之心</option>
+                            </optgroup>
+                        </select>
+                        <label class="gb-checkbox" style="margin-top: 6px;">
+                            <input type="checkbox" id="artifactDomainRotate">
+                            <span>启用多副本轮换<span style="font-size: 13px; color: var(--gb-muted);">【💡按天轮流刷取多个圣遗物秘境，每天凌晨4点轮换】</span></span>
+                        </label>
+                        <div id="artifactDomainRotateExtra" style="display: none;">
+                            <label class="gb-label" style="margin-top: 8px;">【第2个遗器秘境】轮换顺序第二位（留空则不参与轮换）</label>
+                            <select id="artifactDomain2" class="gb-select"></select>
+                            <label class="gb-label" style="margin-top: 8px;">【第3个遗器秘境】轮换顺序第三位（留空则自动切换为双副本轮换）</label>
+                            <select id="artifactDomain3" class="gb-select"></select>
+                        </div>
+                        <label class="gb-checkbox" style="margin-top: 6px;">
+                            <input type="checkbox" id="enable5StarArtifactSalvage">
+                            <span>五星圣遗物分解<span style="font-size: 13px; color: var(--gb-muted);">【💡开启后分解未锁定的五星】</span></span>
+                        </label>
+                        <label class="hint-text">
+                            💡 原粹树脂耗尽即结束；结束后自动分解圣遗物。
+                            <br>🔄 启用「多副本轮换」后：第一天刷第一个秘境、第二天刷第二个、第三天刷第三个、第四天回到第一个，依次循环；当天内多次执行始终刷取当天对应的秘境。至少配置一个秘境方可启用。
                         </label>
                     </div>
                 </div>
 
                 <!-- 其他选项 -->
-                <div class="setting-group">
-                    <div class="gb-group-title gb-gradient-text-gold">🔧 其他选项</div>
+                <div class="setting-group panel-other">
+                    <div class="gb-group-title"><span>🔧</span> <span class="gb-gradient-text-gold">其他选项</span></div>
                     <div class="setting-item">
                         <label class="gb-checkbox">
                             <input type="checkbox" id="isNoGrassGod">
@@ -214,11 +344,38 @@
                             <option value="挪德卡莱">挪德卡莱</option>
                         </select>
                     </div>
+                    <div class="setting-item">
+                        <label class="gb-checkbox">
+                            <input type="checkbox" id="enableLeyLineDoubleDrop">
+                            <span>自动检测地脉花双倍活动<span style="font-size: 13px; color: var(--gb-muted);">【💡优先执行2次地脉花，无论材料是否充足都进行刷取】</span></span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label class="gb-label">双倍活动地脉花类型（默认经验书，可切换摩拉）</label>
+                        <select id="leyLineDoubleDropType" class="gb-select">
+                            <option value="经验书">经验书（启示之花）</option>
+                            <option value="摩拉">摩拉（藏金之花）</option>
+                        </select>
+                    </div>
                 </div>
 
-                <!-- 功能设置 -->
-                <div class="setting-group">
-                    <div class="gb-group-title gb-gradient-text-gold">功能设置</div>
+                <!-- 功能设置（含 UID遮挡） -->
+                <div class="setting-group panel-function">
+                    <div class="gb-group-title"><span>📰</span> <span class="gb-gradient-text-gold">功能设置</span></div>
+                    <div class="setting-item">
+                        <label class="gb-checkbox">
+                            <input type="checkbox" id="useTransientResin">
+                            <span style="color: var(--gb-warning);">圣遗物秘境使用须臾树脂刷取（默认关闭不使用）</span>
+                        </label>
+                        <label class="gb-label" >须臾树脂刷取副本次数（开启后生效，默认 1 次）</label>
+                        <input type="text" id="transientResinCount" class="gb-input" placeholder="1" value="1">
+                    </div>
+                    <div class="setting-item">
+                        <label class="gb-checkbox">
+                            <input type="checkbox" id="autoArtifactSalvage">
+                            <span style="color: var(--gb-warning);">圣遗物秘境结束后自动分解圣遗物</span>
+                        </label>
+                    </div>
                     <div class="setting-item">
                         <label class="gb-checkbox">
                             <input type="checkbox" id="unfairContractTerms">
@@ -227,34 +384,152 @@
                     </div>
                     <div class="setting-item">
                         <label class="gb-checkbox">
-                            <input type="checkbox" id="checkVersionEnabled" checked>
-                            <span>启用版本检查</span>
-                        </label>
-                    </div>
-                    <div class="setting-item">
-                        <label class="gb-checkbox">
-                            <input type="checkbox" id="showSettingsOnStartup" checked>
-                            <span>每次启动弹出设置弹窗</span>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- UID遮挡 -->
-                <div class="setting-group">
-                    <div class="gb-group-title gb-gradient-text-gold">🔒 UID遮挡</div>
-                    <div class="setting-item">
-                        <label class="gb-checkbox">
                             <input type="checkbox" id="enableUidMask">
-                            <span>启用左上角UID遮挡</span>
+                            <span>🔒 启用左上角UID遮挡</span>
                         </label>
                     </div>
                     <div class="setting-item">
-                        <label class="gb-label">X坐标（距左边像素，数值增大向右移动默认31）</label>
+                        <label class="gb-label">UID遮挡 X坐标（距左边像素，数值增大向右移动默认31）</label>
                         <input type="text" id="uidMaskPositionX" class="gb-input" placeholder="31" value="31">
                     </div>
                     <div class="setting-item">
-                        <label class="gb-label">Y坐标（距上边像素，数值增大向下移动默认117）</label>
+                        <label class="gb-label">UID遮挡 Y坐标（距上边像素，数值增大向下移动默认117）</label>
                         <input type="text" id="uidMaskPositionY" class="gb-input" placeholder="117" value="117">
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="char-page" id="page-character2">
+                <div class="settings-container gb-scroll">
+                    <!-- 必填设置 -->
+                    <div class="setting-group panel-required">
+                        <div class="gb-group-title"><span>📌</span> <span class="gb-gradient-text-gold">必填设置</span></div>
+                        <div class="setting-item">
+                            <label class="gb-label gb-label-required">【角色名称】不要输错角色名称</label>
+                            <input type="text" id="Character2" class="gb-input" placeholder="请输入角色名称">
+                            <label class="gb-checkbox" style="margin-top: 6px;">
+                                <input type="checkbox" id="openCharacterPicker2">
+                                <span>从遮罩页面选择角色</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- 突破等级设置 -->
+                    <div class="setting-group panel-level">
+                        <div class="gb-group-title"><span>📈</span> <span class="gb-gradient-text-gold">目标突破等级（你想要升到多少级）</span></div>
+                        <div class="setting-item">
+                            <label class="gb-label">角色突破目标等级（80级对应90级）</label>
+                            <select id="bossRequireCounts2" class="gb-select">
+                                <option value="80级">80级</option>
+                                <option value="70级">70级</option>
+                                <option value="60级">60级</option>
+                                <option value="50级">50级</option>
+                                <option value="40级">40级</option>
+                                <option value="20级">20级</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label class="gb-label">武器突破目标等级（80级对应90级）</label>
+                            <select id="weaponMaterialRequireCounts2" class="gb-select">
+                                <option value="80级">80级</option>
+                                <option value="70级">70级</option>
+                                <option value="60级">60级</option>
+                                <option value="50级">50级</option>
+                                <option value="40级">40级</option>
+                                <option value="20级">20级</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label class="gb-label">天赋等级(x-y-z，普攻-战技-大招)</label>
+                            <input type="text" id="talentBookRequireCounts2" class="gb-input" placeholder="1-10-10" value="1-10-10">
+                        </div>
+                    </div>
+
+                    <!-- 武器设置（右侧上格） -->
+                    <div class="setting-group panel-wiki">
+                        <div class="gb-group-title"><span>🗡️</span> <span class="gb-gradient-text-gold">武器设置</span></div>
+                        <div class="setting-item">
+                            <label class="gb-label">【武器名称】用于获取武器突破材料与秘境材料名称</label>
+                            <input type="text" id="weaponName2" class="gb-input" placeholder="请输入武器名称(请不要输错武器名称)">
+                            <label class="gb-checkbox" style="margin-top: 6px;">
+                                <input type="checkbox" id="openWeaponPicker2">
+                                <span>从遮罩页面选择武器名称</span>
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label class="hint-text">
+                                💡 勾选从遮罩页面选择后会弹出新页面，可选择武器名称，角色名称同理。脚本会自动获取角色装备的武器的当前：等级、突破、天赋、武器等级用于材料需求计算。
+                                <br>📌 武器名称留空则跳过武器材料相关流程。
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="char-page" id="page-character3">
+                <div class="settings-container gb-scroll">
+                    <!-- 必填设置 -->
+                    <div class="setting-group panel-required">
+                        <div class="gb-group-title"><span>📌</span> <span class="gb-gradient-text-gold">必填设置</span></div>
+                        <div class="setting-item">
+                            <label class="gb-label gb-label-required">【角色名称】不要输错角色名称</label>
+                            <input type="text" id="Character3" class="gb-input" placeholder="请输入角色名称">
+                            <label class="gb-checkbox" style="margin-top: 6px;">
+                                <input type="checkbox" id="openCharacterPicker3">
+                                <span>从遮罩页面选择角色</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- 突破等级设置 -->
+                    <div class="setting-group panel-level">
+                        <div class="gb-group-title"><span>📈</span> <span class="gb-gradient-text-gold">目标突破等级（你想要升到多少级）</span></div>
+                        <div class="setting-item">
+                            <label class="gb-label">角色突破目标等级（80级对应90级）</label>
+                            <select id="bossRequireCounts3" class="gb-select">
+                                <option value="80级">80级</option>
+                                <option value="70级">70级</option>
+                                <option value="60级">60级</option>
+                                <option value="50级">50级</option>
+                                <option value="40级">40级</option>
+                                <option value="20级">20级</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label class="gb-label">武器突破目标等级（80级对应90级）</label>
+                            <select id="weaponMaterialRequireCounts3" class="gb-select">
+                                <option value="80级">80级</option>
+                                <option value="70级">70级</option>
+                                <option value="60级">60级</option>
+                                <option value="50级">50级</option>
+                                <option value="40级">40级</option>
+                                <option value="20级">20级</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label class="gb-label">天赋等级(x-y-z，普攻-战技-大招)</label>
+                            <input type="text" id="talentBookRequireCounts3" class="gb-input" placeholder="1-10-10" value="1-10-10">
+                        </div>
+                    </div>
+
+                    <!-- 武器设置（右侧上格） -->
+                    <div class="setting-group panel-wiki">
+                        <div class="gb-group-title"><span>🗡️</span> <span class="gb-gradient-text-gold">武器设置</span></div>
+                        <div class="setting-item">
+                            <label class="gb-label">【武器名称】用于获取武器突破材料与秘境材料名称</label>
+                            <input type="text" id="weaponName3" class="gb-input" placeholder="请输入武器名称(请不要输错武器名称)">
+                            <label class="gb-checkbox" style="margin-top: 6px;">
+                                <input type="checkbox" id="openWeaponPicker3">
+                                <span>从遮罩页面选择武器名称</span>
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label class="hint-text">
+                                💡 勾选从遮罩页面选择后会弹出新页面，可选择武器名称，角色名称同理。脚本会自动获取角色装备的武器的当前：等级、突破、天赋、武器等级用于材料需求计算。
+                                <br>📌 武器名称留空则跳过武器材料相关流程。
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -270,15 +545,16 @@
         let countdown = 30;
         let countdownInterval = null;
         let isClosed = false;
+        let activeTab = 1;
+        let pickerTargetTab = 1;
 
-        function toggleWikiWeaponInput() {
-            const wikiCheckbox = document.getElementById('enableWikiDataFetch');
-            const weaponInputDiv = document.getElementById('wikiWeaponInput');
-            if (wikiCheckbox.checked) {
-                weaponInputDiv.classList.add('show');
-            } else {
-                weaponInputDiv.classList.remove('show');
-            }
+        function switchTab(n) {
+            document.querySelectorAll('.char-tab').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.char-page').forEach(el => el.classList.remove('active'));
+            document.getElementById('tab-character' + n).classList.add('active');
+            document.getElementById('page-character' + n).classList.add('active');
+            activeTab = n;
+            resetCountdown();
         }
 
         function resetCountdown() {
@@ -290,6 +566,29 @@
                 } catch (e) {
                     console.error('userActive 请求异常:', e);
                 }
+            }
+        }
+
+        function pauseCountdown() {
+            if (countdownInterval) {
+                clearInterval(countdownInterval);
+                countdownInterval = null;
+            }
+            document.getElementById('countdownText').textContent = '已暂停（武器选择中）';
+        }
+
+        function resumeCountdown() {
+            if (!countdownInterval) {
+                countdownInterval = setInterval(updateCountdown, 1000);
+            }
+        }
+
+        // 多副本轮换：根据开关状态显隐第2/3秘境配置项
+        function updateArtifactRotateVisibility() {
+            const rotateEl = document.getElementById('artifactDomainRotate');
+            const extraEl = document.getElementById('artifactDomainRotateExtra');
+            if (rotateEl && extraEl) {
+                extraEl.style.display = rotateEl.checked ? 'block' : 'none';
             }
         }
 
@@ -325,14 +624,35 @@
                 isNoGrassGod: document.getElementById('isNoGrassGod').checked,
                 energyMax: document.getElementById('energyMax').checked,
                 unfairContractTerms: document.getElementById('unfairContractTerms').checked,
-                checkVersionEnabled: document.getElementById('checkVersionEnabled').checked,
-                showSettingsOnStartup: document.getElementById('showSettingsOnStartup').checked,
-                enableWikiDataFetch: document.getElementById('enableWikiDataFetch').checked,
                 weaponName: document.getElementById('weaponName').value.trim(),
                 adventurePath: document.getElementById('adventurePath').value,
+                domainRunMode: document.getElementById('artifactDomain').value,
+                artifactDomainRotate: document.getElementById('artifactDomainRotate').checked,
+                domainRunMode2: document.getElementById('artifactDomain2').value,
+                domainRunMode3: document.getElementById('artifactDomain3').value,
+                useTransientResin: document.getElementById('useTransientResin').checked,
+                transientResinCount: document.getElementById('transientResinCount').value.trim() || '1',
+                autoArtifactSalvage: document.getElementById('autoArtifactSalvage').checked,
+                enable5StarArtifactSalvage: document.getElementById('enable5StarArtifactSalvage').checked,
+                enableLeyLineDoubleDrop: document.getElementById('enableLeyLineDoubleDrop').checked,
+                leyLineDoubleDropType: document.getElementById('leyLineDoubleDropType').value,
                 enableUidMask: document.getElementById('enableUidMask').checked,
                 uidMaskPositionX: document.getElementById('uidMaskPositionX').value.trim() || '31',
-                uidMaskPositionY: document.getElementById('uidMaskPositionY').value.trim() || '117'
+                uidMaskPositionY: document.getElementById('uidMaskPositionY').value.trim() || '117',
+                character2: {
+                    Character: document.getElementById('Character2').value.trim(),
+                    bossRequireCounts: document.getElementById('bossRequireCounts2').value,
+                    weaponMaterialRequireCounts: document.getElementById('weaponMaterialRequireCounts2').value,
+                    talentBookRequireCounts: document.getElementById('talentBookRequireCounts2').value.trim() || '1-10-10',
+                    weaponName: document.getElementById('weaponName2').value.trim()
+                },
+                character3: {
+                    Character: document.getElementById('Character3').value.trim(),
+                    bossRequireCounts: document.getElementById('bossRequireCounts3').value,
+                    weaponMaterialRequireCounts: document.getElementById('weaponMaterialRequireCounts3').value,
+                    talentBookRequireCounts: document.getElementById('talentBookRequireCounts3').value.trim() || '1-10-10',
+                    weaponName: document.getElementById('weaponName3').value.trim()
+                }
             };
 
             if (window.htmlMask) {
@@ -353,16 +673,42 @@
                 document.getElementById('isNoGrassGod').checked = settings.isNoGrassGod || false;
                 document.getElementById('energyMax').checked = settings.energyMax || false;
                 document.getElementById('unfairContractTerms').checked = settings.unfairContractTerms || false;
-                document.getElementById('checkVersionEnabled').checked = settings.checkVersionEnabled !== false;
-                document.getElementById('showSettingsOnStartup').checked = settings.showSettingsOnStartup || false;
-                document.getElementById('enableWikiDataFetch').checked = settings.enableWikiDataFetch || false;
                 if (settings.weaponName) document.getElementById('weaponName').value = settings.weaponName;
                 if (settings.adventurePath) document.getElementById('adventurePath').value = settings.adventurePath;
+                if (settings.domainRunMode) document.getElementById('artifactDomain').value = settings.domainRunMode;
+                document.getElementById('artifactDomainRotate').checked = settings.artifactDomainRotate || false;
+                // 轮换副本选项与主副本保持一致（克隆下拉选项）
+                ['artifactDomain2', 'artifactDomain3'].forEach(function(id) {
+                    const el = document.getElementById(id);
+                    el.innerHTML = document.getElementById('artifactDomain').innerHTML;
+                    el.value = "";
+                });
+                if (settings.domainRunMode2) document.getElementById('artifactDomain2').value = settings.domainRunMode2;
+                if (settings.domainRunMode3) document.getElementById('artifactDomain3').value = settings.domainRunMode3;
+                updateArtifactRotateVisibility();
+                document.getElementById('useTransientResin').checked = settings.useTransientResin || false;
+                document.getElementById('transientResinCount').value = settings.transientResinCount || '1';
+                document.getElementById('autoArtifactSalvage').checked = settings.autoArtifactSalvage === true;
+                document.getElementById('enable5StarArtifactSalvage').checked = settings.enable5StarArtifactSalvage || false;
+                document.getElementById('enableLeyLineDoubleDrop').checked = settings.enableLeyLineDoubleDrop || false;
+                if (settings.leyLineDoubleDropType) document.getElementById('leyLineDoubleDropType').value = settings.leyLineDoubleDropType;
                 document.getElementById('enableUidMask').checked = settings.enableUidMask || false;
                 document.getElementById('uidMaskPositionX').value = settings.uidMaskPositionX || '31';
                 document.getElementById('uidMaskPositionY').value = settings.uidMaskPositionY || '117';
 
-                toggleWikiWeaponInput();
+                const c2 = settings.character2 || {};
+                if (c2.Character) document.getElementById('Character2').value = c2.Character;
+                if (c2.bossRequireCounts) document.getElementById('bossRequireCounts2').value = c2.bossRequireCounts;
+                if (c2.weaponMaterialRequireCounts) document.getElementById('weaponMaterialRequireCounts2').value = c2.weaponMaterialRequireCounts;
+                document.getElementById('talentBookRequireCounts2').value = c2.talentBookRequireCounts || '1-10-10';
+                if (c2.weaponName) document.getElementById('weaponName2').value = c2.weaponName;
+
+                const c3 = settings.character3 || {};
+                if (c3.Character) document.getElementById('Character3').value = c3.Character;
+                if (c3.bossRequireCounts) document.getElementById('bossRequireCounts3').value = c3.bossRequireCounts;
+                if (c3.weaponMaterialRequireCounts) document.getElementById('weaponMaterialRequireCounts3').value = c3.weaponMaterialRequireCounts;
+                document.getElementById('talentBookRequireCounts3').value = c3.talentBookRequireCounts || '1-10-10';
+                if (c3.weaponName) document.getElementById('weaponName3').value = c3.weaponName;
 
                 if (settings.showAllZeroHint) {
                     const hintEl = document.getElementById('allZeroHint');
@@ -379,11 +725,54 @@
         document.getElementById('cancelBtn').addEventListener('click', () => closeWindow('cancel'));
         document.getElementById('cancelBtn2').addEventListener('click', () => closeWindow('cancel'));
         document.getElementById('saveBtn').addEventListener('click', saveSettings);
+        document.getElementById('artifactDomainRotate').addEventListener('change', updateArtifactRotateVisibility);
 
-        document.getElementById('enableWikiDataFetch').addEventListener('change', function() {
-            toggleWikiWeaponInput();
-            resetCountdown();
-        });
+        document.getElementById('tab-character1').addEventListener('click', () => switchTab(1));
+        document.getElementById('tab-character2').addEventListener('click', () => switchTab(2));
+        document.getElementById('tab-character3').addEventListener('click', () => switchTab(3));
+
+        // 选择弹窗关闭后将焦点拉回遮罩网页：选择器 WebView 的销毁是异步的，
+        // 单次 focus 会在窗口销毁完成时被系统把焦点还回游戏，故立即+多次延迟重试
+        function refocusSettingsPage(inputId) {
+            const el = document.getElementById(inputId);
+            const applyFocus = () => {
+                window.focus();
+                if (el && el.focus) el.focus();
+            };
+            applyFocus();
+            setTimeout(applyFocus, 200);
+            setTimeout(applyFocus, 600);
+            setTimeout(applyFocus, 1200);
+        }
+
+        // 通用绑定：勾选「从遮罩页面选择」复选框时记录目标页号并打开对应选择器
+        function bindPickerToggle(checkboxId, requestUrl, tab) {
+            const el = document.getElementById(checkboxId);
+            if (!el) return;
+            el.addEventListener('change', function() {
+                if (this.checked) {
+                    pickerTargetTab = tab;
+                    pauseCountdown();
+                    if (window.htmlMask) {
+                        try {
+                            window.htmlMask.request(requestUrl, '{}');
+                        } catch (e) {
+                            console.error(requestUrl + ' 请求异常:', e);
+                            this.checked = false;
+                            resumeCountdown();
+                            resetCountdown();
+                        }
+                    }
+                }
+            });
+        }
+
+        bindPickerToggle('openCharacterPicker', '/openCharacterPicker', 1);
+        bindPickerToggle('openCharacterPicker2', '/openCharacterPicker', 2);
+        bindPickerToggle('openCharacterPicker3', '/openCharacterPicker', 3);
+        bindPickerToggle('openWeaponPicker', '/openWeaponPicker', 1);
+        bindPickerToggle('openWeaponPicker2', '/openWeaponPicker', 2);
+        bindPickerToggle('openWeaponPicker3', '/openWeaponPicker', 3);
 
         document.querySelectorAll('.gb-input, .gb-select').forEach(el => {
             el.addEventListener('focus', resetCountdown);
@@ -403,6 +792,28 @@
                         const parsed = typeof msg === 'string' ? JSON.parse(msg) : msg;
                         if (parsed.url === '/initSettings') {
                             initSettings(parsed.data);
+                        } else if (parsed.url === '/weaponSelected') {
+                            const data = typeof parsed.data === 'string' ? JSON.parse(parsed.data) : parsed.data;
+                            const weaponInputId = pickerTargetTab === 2 ? 'weaponName2' : (pickerTargetTab === 3 ? 'weaponName3' : 'weaponName');
+                            if (data && data.weapon) {
+                                document.getElementById(weaponInputId).value = data.weapon;
+                            }
+                            document.getElementById('openWeaponPicker' + (pickerTargetTab > 1 ? pickerTargetTab : '')).checked = false;
+                            // 选择弹窗关闭后，将焦点拉回遮罩网页（含延迟重试，应对异步销毁竞态）
+                            refocusSettingsPage(weaponInputId);
+                            resumeCountdown();
+                            resetCountdown();
+                        } else if (parsed.url === '/characterSelected') {
+                            const data = typeof parsed.data === 'string' ? JSON.parse(parsed.data) : parsed.data;
+                            const characterInputId = pickerTargetTab === 2 ? 'Character2' : (pickerTargetTab === 3 ? 'Character3' : 'Character');
+                            if (data && data.name) {
+                                document.getElementById(characterInputId).value = data.name;
+                            }
+                            document.getElementById('openCharacterPicker' + (pickerTargetTab > 1 ? pickerTargetTab : '')).checked = false;
+                            // 选择弹窗关闭后，将焦点拉回遮罩网页（含延迟重试，应对异步销毁竞态）
+                            refocusSettingsPage(characterInputId);
+                            resumeCountdown();
+                            resetCountdown();
                         }
                     } catch (e) {
                         console.error('消息解析失败:', e);
@@ -422,5 +833,10 @@
             console.error('初始化异常:', e);
         }
     </script>
-</body>
-</html>
+
+
+
+
+
+
+</body></html>

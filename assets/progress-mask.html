@@ -444,7 +444,7 @@
                     window.htmlMask.request('/ready', '{}');
                 } catch (e) {
                     stageNameEl.textContent = 'ready 请求异常: ' + e.message;
-                    statusTextEl.textContent = String(e);
+                    statusTextContentEl.textContent = String(e);
                 }
             } else {
                 demoBadge.style.display = 'block';

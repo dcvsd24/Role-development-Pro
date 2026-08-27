@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择角色</title>
+    <link rel="stylesheet" href="theme.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .modal-box {
+            width: 800px;
+            max-width: 95vw;
+            max-height: 88vh;
+            padding: 20px 22px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .scroll-hint {
+            font-size: 13px;
+            color: var(--gb-warning);
+            font-weight: 600;
+            background: rgba(255, 200, 0, 0.12);
+            border: 1px solid var(--gb-warning);
+            border-radius: var(--gb-radius-md);
+            padding: 3px 10px;
+        }
+
+        .search-box {
+            margin-bottom: 8px;
+        }
+
+        .filter-section {
+            margin-bottom: 6px;
+        }
+
+        .filter-label {
+            font-size: 12px;
+            color: var(--gb-muted);
+            margin-bottom: 3px;
+        }
+
+        .filter-bar {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 5px 10px;
+            border: 1px solid var(--gb-border);
+            border-radius: var(--gb-radius-md);
+            background: transparent;
+            color: var(--gb-muted);
+            font-size: 12px;
+            cursor: pointer;
+            text-align: center;
+            transition: background 0.15s, border-color 0.15s, color 0.15s;
+            user-select: none;
+        }
+
+        .filter-btn:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: var(--gb-border-strong);
+            color: var(--gb-text);
+        }
+
+        .filter-btn.active {
+            background: var(--gb-accent, rgba(255, 255, 255, 0.15));
+            border-color: var(--gb-border-strong);
+            color: var(--gb-text);
+            font-weight: 600;
+        }
+
+        .filter-status {
+            font-size: 12px;
+            color: var(--gb-muted);
+            margin-bottom: 6px;
+            padding: 0 2px;
+        }
+
+        .filter-status .active-filter {
+            color: var(--gb-warning);
+            font-weight: 600;
+        }
+
+        .character-list {
+            flex: 1;
+            min-height: 0;
+            overflow-y: auto;
+            max-height: 52vh;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4px;
+            padding-right: 4px;
+        }
+
+        .character-item {
+            padding: 8px 10px;
+            border: 1px solid var(--gb-border);
+            border-radius: var(--gb-radius-md);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        .character-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--gb-border-strong);
+        }
+
+        .character-name {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--gb-text);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .character-tags {
+            font-size: 11px;
+            color: var(--gb-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .empty-hint {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: var(--gb-muted);
+            padding: 24px;
+            font-size: 14px;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 820px) {
+            .modal-box {
+                width: 95vw;
+                padding: 16px;
+            }
+            .character-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .character-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gb-overlay">
+        <div class="modal-box gb-glass gb-frame">
+            <div class="modal-title">
+                <span class="gb-gradient-text">👤 选择角色</span>
+                <span class="scroll-hint">📜 滚动滑轮查看更多角色</span>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" class="gb-input" placeholder="搜索角色名称...">
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">稀有度</div>
+                <div class="filter-bar" data-group="star">
+                    <button class="filter-btn active" data-value="all">全部</button>
+                    <button class="filter-btn" data-value="五星">五星</button>
+                    <button class="filter-btn" data-value="四星">四星</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">武器类型</div>
+                <div class="filter-bar" data-group="weapon">
+                    <button class="filter-btn active" data-value="all">全部</button>
+                    <button class="filter-btn" data-value="单手剑">单手剑</button>
+                    <button class="filter-btn" data-value="双手剑">双手剑</button>
+                    <button class="filter-btn" data-value="长柄武器">长柄武器</button>
+                    <button class="filter-btn" data-value="法器">法器</button>
+                    <button class="filter-btn" data-value="弓">弓</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">元素</div>
+                <div class="filter-bar" data-group="element">
+                    <button class="filter-btn active" data-value="all">全部</button>
+                    <button class="filter-btn" data-value="风">风</button>
+                    <button class="filter-btn" data-value="岩">岩</button>
+                    <button class="filter-btn" data-value="雷">雷</button>
+                    <button class="filter-btn" data-value="草">草</button>
+                    <button class="filter-btn" data-value="水">水</button>
+                    <button class="filter-btn" data-value="火">火</button>
+                    <button class="filter-btn" data-value="冰">冰</button>
+                </div>
+            </div>
+
+            <div class="filter-status" id="filterStatus">当前筛选：全部（共 0 个角色）</div>
+            <div class="character-list gb-scroll" id="characterList">
+                <div class="empty-hint">正在加载角色列表...</div>
+            </div>
+            <div class="btn-group">
+                <button class="gb-btn gb-btn-secondary" id="cancelBtn">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allCharacters = [];
+        let isClosed = false;
+        let filters = { star: 'all', weapon: 'all', element: 'all' };
+
+        function notifyActive() {
+            if (window.htmlMask) {
+                try { window.htmlMask.request('/userActive', '{}'); } catch (e) {}
+            }
+        }
+
+        function closeWindow() {
+            if (isClosed) return;
+            isClosed = true;
+            if (window.htmlMask) { window.htmlMask.request('/close', '{}'); }
+        }
+
+        function selectCharacter(name) {
+            if (isClosed) return;
+            isClosed = true;
+            if (window.htmlMask) {
+                window.htmlMask.request('/selectCharacter', JSON.stringify({ name: name }));
+            }
+        }
+
+        function renderCharacterList(characters) {
+            const listEl = document.getElementById('characterList');
+            listEl.innerHTML = '';
+            if (characters.length === 0) {
+                listEl.innerHTML = '<div class="empty-hint">未找到匹配的角色</div>';
+                return;
+            }
+            const fragment = document.createDocumentFragment();
+            characters.forEach(c => {
+                const item = document.createElement('div');
+                item.className = 'character-item';
+                const nameDiv = document.createElement('div');
+                nameDiv.className = 'character-name';
+                nameDiv.textContent = c.name;
+                const tagsDiv = document.createElement('div');
+                tagsDiv.className = 'character-tags';
+                tagsDiv.textContent = c.star + ' · ' + c.weapon + ' · ' + c.element;
+                item.appendChild(nameDiv);
+                item.appendChild(tagsDiv);
+                item.addEventListener('click', () => selectCharacter(c.name));
+                fragment.appendChild(item);
+            });
+            listEl.appendChild(fragment);
+        }
+
+        function applyFilters() {
+            const keyword = document.getElementById('searchInput').value.trim();
+            const lower = keyword.toLowerCase();
+            let filtered = allCharacters;
+
+            if (filters.star !== 'all') {
+                filtered = filtered.filter(c => c.star === filters.star);
+            }
+            if (filters.weapon !== 'all') {
+                filtered = filtered.filter(c => c.weapon === filters.weapon);
+            }
+            if (filters.element !== 'all') {
+                filtered = filtered.filter(c => c.element === filters.element);
+            }
+            if (lower) {
+                filtered = filtered.filter(c => c.name.toLowerCase().includes(lower));
+            }
+
+            renderCharacterList(filtered);
+            updateFilterStatus(filtered.length);
+        }
+
+        function updateFilterStatus(count) {
+            const statusEl = document.getElementById('filterStatus');
+            const parts = [];
+            parts.push(filters.star === 'all' ? '全部' : filters.star);
+            parts.push(filters.weapon === 'all' ? '全部武器' : filters.weapon);
+            parts.push(filters.element === 'all' ? '全部元素' : filters.element);
+            statusEl.innerHTML = '当前筛选：<span class="active-filter">' + parts.join(' / ') + '</span>（共 ' + count + ' 个角色）';
+        }
+
+        function setFilter(group, value) {
+            filters[group] = value;
+            document.querySelectorAll('.filter-bar[data-group="' + group + '"] .filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.value === value);
+            });
+            applyFilters();
+        }
+
+        document.getElementById('searchInput').addEventListener('input', function() {
+            applyFilters();
+            notifyActive();
+        });
+
+        document.querySelectorAll('.filter-bar').forEach(bar => {
+            const group = bar.dataset.group;
+            bar.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    setFilter(group, this.dataset.value);
+                    notifyActive();
+                });
+            });
+        });
+
+        document.getElementById('cancelBtn').addEventListener('click', closeWindow);
+
+        function init() {
+            if (window.htmlMask) {
+                window.htmlMask.onMessage = function(msg) {
+                    try {
+                        const parsed = typeof msg === 'string' ? JSON.parse(msg) : msg;
+                        if (parsed.url === '/initCharacters') {
+                            const data = typeof parsed.data === 'string' ? JSON.parse(parsed.data) : parsed.data;
+                            allCharacters = (data && data.characters) || [];
+                            applyFilters();
+                        }
+                    } catch (e) {
+                        console.error('消息解析失败:', e);
+                    }
+                };
+                try { window.htmlMask.request('/ready', '{}'); } catch (e) {
+                    console.error('ready 请求异常:', e);
+                }
+            }
+        }
+
+        try { init(); } catch (e) { console.error('初始化异常:', e); }
+    </script>
+</body>
+</html>
