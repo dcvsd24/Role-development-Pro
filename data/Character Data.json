@@ -1,0 +1,1904 @@
+[
+    {
+        "name": "神里绫华",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "恒常机关之心",
+            "boss": "恒常机关阵列",
+            "common_material": "破旧的刀镡,影打刀镡,名刀镡",
+            "name of magic": "野伏众",
+            "local_specialty": "绯樱绣球",
+            "talent_book": "「风雅」的哲学",
+            "weekly_boss": "血玉之枝"
+        }
+    },
+    {
+        "name": "琴",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "飓风之种",
+            "boss": "无相之风",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "蒲公英籽",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "东风之翎"
+        }
+    },
+    {
+        "name": "旅行者",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "none",
+        "materials": {
+            "ascension_gem": "璀璨原钻块",
+            "ascension_boss": null,
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "风车菊",
+            "talent_book": "「巧思」的指引",
+            "weekly_boss": "「笃行」的哲学"
+        }
+    },
+    {
+        "name": "丽莎",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷光棱镜",
+            "boss": "无相之雷",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "落落莓",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "东风之爪"
+        }
+    },
+    {
+        "name": "旅行者",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "none",
+        "materials": {
+            "ascension_gem": "璀璨原钻块",
+            "ascension_boss": null,
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "风车菊",
+            "talent_book": "「巧思」的指引",
+            "weekly_boss": "「笃行」的哲学"
+        }
+    },
+    {
+        "name": "芭芭拉",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "净水之心",
+            "boss": "纯水精灵",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "慕风蘑菇",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "北风之环"
+        }
+    },
+    {
+        "name": "凯亚",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "极寒之核",
+            "boss": "急冻树",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "嘟嘟莲",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "北风的魂匣"
+        }
+    },
+    {
+        "name": "迪卢克",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "常燃火种",
+            "boss": "爆炎树",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "小灯草",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "东风之翎"
+        }
+    },
+    {
+        "name": "雷泽",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷光棱镜",
+            "boss": "无相之雷",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "钩钩果",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "东风之爪"
+        }
+    },
+    {
+        "name": "安柏",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "常燃火种",
+            "boss": "爆炎树",
+            "common_material": "牢固的箭簇,锐利的箭簇,历战的箭簇",
+            "name of magic": "丘丘射手",
+            "local_specialty": "小灯草",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "东风的吐息"
+        }
+    },
+    {
+        "name": "温迪",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "飓风之种",
+            "boss": "无相之风",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "塞西莉亚花",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "北风之尾"
+        }
+    },
+    {
+        "name": "香菱",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "常燃火种",
+            "boss": "爆炎树",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "绝云椒椒",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "东风之爪"
+        }
+    },
+    {
+        "name": "北斗",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷光棱镜",
+            "boss": "无相之雷",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "夜泊石",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "东风的吐息"
+        }
+    },
+    {
+        "name": "行秋",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "净水之心",
+            "boss": "纯水精灵",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "霓裳花",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "北风之尾"
+        }
+    },
+    {
+        "name": "魈",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "未熟之玉",
+            "boss": "古岩龙蜥",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "清心",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "武炼之魂·孤影"
+        }
+    },
+    {
+        "name": "凝光",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "玄岩之塔",
+            "boss": "无相之岩",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "琉璃百合",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "北风的魂匣"
+        }
+    },
+    {
+        "name": "可莉",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "常燃火种",
+            "boss": "爆炎树",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "慕风蘑菇",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "北风之环"
+        }
+    },
+    {
+        "name": "钟离",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "玄岩之塔",
+            "boss": "无相之岩",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "石珀",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "吞天之鲸·只角"
+        }
+    },
+    {
+        "name": "菲谢尔",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷光棱镜",
+            "boss": "无相之雷",
+            "common_material": "牢固的箭簇,锐利的箭簇,历战的箭簇",
+            "name of magic": "丘丘射手",
+            "local_specialty": "小灯草",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "北风的魂匣"
+        }
+    },
+    {
+        "name": "班尼特",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "常燃火种",
+            "boss": "爆炎树",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "风车菊",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "东风之翎"
+        }
+    },
+    {
+        "name": "达达利亚",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "净水之心",
+            "boss": "纯水精灵",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "星螺",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "魔王之刃·残片"
+        }
+    },
+    {
+        "name": "诺艾尔",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "玄岩之塔",
+            "boss": "无相之岩",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "落落莓",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "东风之爪"
+        }
+    },
+    {
+        "name": "七七",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "极寒之核",
+            "boss": "急冻树",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "琉璃袋",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "北风之尾"
+        }
+    },
+    {
+        "name": "重云",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "极寒之核",
+            "boss": "急冻树",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "石珀",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "东风的吐息"
+        }
+    },
+    {
+        "name": "甘雨",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "极寒之核",
+            "boss": "急冻树",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "清心",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "武炼之魂·孤影"
+        }
+    },
+    {
+        "name": "阿贝多",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "玄岩之塔",
+            "boss": "无相之岩",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "塞西莉亚花",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "吞天之鲸·只角"
+        }
+    },
+    {
+        "name": "迪奥娜",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "极寒之核",
+            "boss": "急冻树",
+            "common_material": "牢固的箭簇,锐利的箭簇,历战的箭簇",
+            "name of magic": "丘丘射手",
+            "local_specialty": "嘟嘟莲",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "魔王之刃·残片"
+        }
+    },
+    {
+        "name": "莫娜",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "净水之心",
+            "boss": "纯水精灵",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "慕风蘑菇",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "北风之环"
+        }
+    },
+    {
+        "name": "刻晴",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷光棱镜",
+            "boss": "无相之雷",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "石珀",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "北风之环"
+        }
+    },
+    {
+        "name": "砂糖",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "飓风之种",
+            "boss": "无相之风",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "风车菊",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "北风的魂匣"
+        }
+    },
+    {
+        "name": "辛焱",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "常燃火种",
+            "boss": "爆炎树",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "琉璃袋",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "吞天之鲸·只角"
+        }
+    },
+    {
+        "name": "罗莎莉亚",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "极寒之核",
+            "boss": "急冻树",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "落落莓",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "武炼之魂·孤影"
+        }
+    },
+    {
+        "name": "胡桃",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "未熟之玉",
+            "boss": "古岩龙蜥",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "霓裳花",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "魔王之刃·残片"
+        }
+    },
+    {
+        "name": "枫原万叶",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "魔偶机心",
+            "boss": "魔偶剑鬼",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "海灵芝",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "鎏金之鳞"
+        }
+    },
+    {
+        "name": "烟绯",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "未熟之玉",
+            "boss": "古岩龙蜥",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "夜泊石",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "血玉之枝"
+        }
+    },
+    {
+        "name": "宵宫",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "阴燃之珠",
+            "boss": "无相之火",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "鸣草",
+            "talent_book": "「浮世」的哲学",
+            "weekly_boss": "龙王之冕"
+        }
+    },
+    {
+        "name": "托马",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "阴燃之珠",
+            "boss": "无相之火",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "幽灯蕈",
+            "talent_book": "「浮世」的哲学",
+            "weekly_boss": "狱火之蝶"
+        }
+    },
+    {
+        "name": "优菈",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "晶凝之华",
+            "boss": "无相之冰",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "蒲公英籽",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "龙王之冕"
+        }
+    },
+    {
+        "name": "雷电将军",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷霆数珠",
+            "boss": "雷音权现",
+            "common_material": "破旧的刀镡,影打刀镡,名刀镡",
+            "name of magic": "野伏众",
+            "local_specialty": "天云草实",
+            "talent_book": "「天光」的哲学",
+            "weekly_boss": "熔毁之刻"
+        }
+    },
+    {
+        "name": "早柚",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "魔偶机心",
+            "boss": "魔偶剑鬼",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "晶化骨髓",
+            "talent_book": "「天光」的哲学",
+            "weekly_boss": "鎏金之鳞"
+        }
+    },
+    {
+        "name": "珊瑚宫心海",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "排异之露",
+            "boss": "无相之水",
+            "common_material": "浮游干核,浮游幽核,浮游晶化核",
+            "name of magic": "飘浮灵",
+            "local_specialty": "珊瑚真珠",
+            "talent_book": "「浮世」的哲学",
+            "weekly_boss": "狱火之蝶"
+        }
+    },
+    {
+        "name": "五郎",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "恒常机关之心",
+            "boss": "恒常机关阵列",
+            "common_material": "浮游干核,浮游幽核,浮游晶化核",
+            "name of magic": "飘浮灵",
+            "local_specialty": "珊瑚真珠",
+            "talent_book": "「天光」的哲学",
+            "weekly_boss": "熔毁之刻"
+        }
+    },
+    {
+        "name": "九条裟罗",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "雷霆数珠",
+            "boss": "雷音权现",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "血斛",
+            "talent_book": "「风雅」的哲学",
+            "weekly_boss": "灰烬之心"
+        }
+    },
+    {
+        "name": "荒泷一斗",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "兽境王器",
+            "boss": "黄金王兽",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "鬼兜虫",
+            "talent_book": "「风雅」的哲学",
+            "weekly_boss": "灰烬之心"
+        }
+    },
+    {
+        "name": "八重神子",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "龙嗣伪鳍",
+            "boss": "深海龙蜥之群",
+            "common_material": "破旧的刀镡,影打刀镡,名刀镡",
+            "name of magic": "野伏众",
+            "local_specialty": "海灵芝",
+            "talent_book": "「天光」的哲学",
+            "weekly_boss": "万劫之真意"
+        }
+    },
+    {
+        "name": "鹿野院平藏",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "符纹之齿",
+            "boss": "遗迹巨蛇",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "鬼兜虫",
+            "talent_book": "「浮世」的哲学",
+            "weekly_boss": "万劫之真意"
+        }
+    },
+    {
+        "name": "夜兰",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "符纹之齿",
+            "boss": "遗迹巨蛇",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "星螺",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "鎏金之鳞"
+        }
+    },
+    {
+        "name": "绮良良",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "常暗圆环",
+            "boss": "深罪浸礼者",
+            "common_material": "浮游干核,浮游幽核,浮游晶化核",
+            "name of magic": "飘浮灵",
+            "local_specialty": "天云草实",
+            "talent_book": "「浮世」的哲学",
+            "weekly_boss": "亘古树海之一瞬"
+        }
+    },
+    {
+        "name": "埃洛伊",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "晶凝之华",
+            "boss": "无相之冰",
+            "common_material": "浮游干核,浮游幽核,浮游晶化核",
+            "name of magic": "飘浮灵",
+            "local_specialty": "晶化骨髓",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "熔毁之刻"
+        }
+    },
+    {
+        "name": "申鹤",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "龙嗣伪鳍",
+            "boss": "深海龙蜥之群",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "清心",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "狱火之蝶"
+        }
+    },
+    {
+        "name": "云堇",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "兽境王器",
+            "boss": "黄金王兽",
+            "common_material": "破损的面具,污秽的面具,不祥的面具",
+            "name of magic": "丘丘人,丘丘萨满,丘丘射手,丘丘王,丘丘暴徒",
+            "local_specialty": "琉璃百合",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "灰烬之心"
+        }
+    },
+    {
+        "name": "久岐忍",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "符纹之齿",
+            "boss": "遗迹巨蛇",
+            "common_material": "浮游干核,浮游幽核,浮游晶化核",
+            "name of magic": "飘浮灵",
+            "local_specialty": "鸣草",
+            "talent_book": "「风雅」的哲学",
+            "weekly_boss": "祸神之禊泪"
+        }
+    },
+    {
+        "name": "神里绫人",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "排异之露",
+            "boss": "无相之水",
+            "common_material": "破旧的刀镡,影打刀镡,名刀镡",
+            "name of magic": "野伏众",
+            "local_specialty": "绯樱绣球",
+            "talent_book": "「风雅」的哲学",
+            "weekly_boss": "凶将之手眼"
+        }
+    },
+    {
+        "name": "柯莱",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "蕈王钩喙",
+            "boss": "翠翎恐蕈",
+            "common_material": "牢固的箭簇,锐利的箭簇,历战的箭簇",
+            "name of magic": "丘丘射手",
+            "local_specialty": "树王圣体菇",
+            "talent_book": "「笃行」的哲学",
+            "weekly_boss": "祸神之禊泪"
+        }
+    },
+    {
+        "name": "多莉",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "藏雷野实",
+            "boss": "掣电树",
+            "common_material": "褪色红绸,镶边红绸,织金红绸",
+            "name of magic": "镀金旅团",
+            "local_specialty": "劫波莲",
+            "talent_book": "「巧思」的哲学",
+            "weekly_boss": "血玉之枝"
+        }
+    },
+    {
+        "name": "提纳里",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "蕈王钩喙",
+            "boss": "翠翎恐蕈",
+            "common_material": "失活菌核,休眠菌核,茁壮菌核,蕈兽孢子,荧光孢粉,孢囊晶尘",
+            "name of magic": "蕈兽",
+            "local_specialty": "月莲",
+            "talent_book": "「诤言」的哲学",
+            "weekly_boss": "万劫之真意"
+        }
+    },
+    {
+        "name": "妮露",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "永续机芯",
+            "boss": "兆载永劫龙兽",
+            "common_material": "失活菌核,休眠菌核,茁壮菌核,蕈兽孢子,荧光孢粉,孢囊晶尘",
+            "name of magic": "蕈兽",
+            "local_specialty": "帕蒂沙兰",
+            "talent_book": "「笃行」的哲学",
+            "weekly_boss": "祸神之禊泪"
+        }
+    },
+    {
+        "name": "赛诺",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "藏雷野实",
+            "boss": "掣电树",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "圣金虫",
+            "talent_book": "「诤言」的哲学",
+            "weekly_boss": "凶将之手眼"
+        }
+    },
+    {
+        "name": "坎蒂丝",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "导光四面体",
+            "boss": "半永恒统辖矩阵",
+            "common_material": "褪色红绸,镶边红绸,织金红绸",
+            "name of magic": "镀金旅团",
+            "local_specialty": "赤念果",
+            "talent_book": "「诤言」的哲学",
+            "weekly_boss": "祸神之禊泪"
+        }
+    },
+    {
+        "name": "纳西妲",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "灭诤草蔓",
+            "boss": "无相之草",
+            "common_material": "失活菌核,休眠菌核,茁壮菌核,蕈兽孢子,荧光孢粉,孢囊晶尘",
+            "name of magic": "蕈兽",
+            "local_specialty": "劫波莲",
+            "talent_book": "「巧思」的哲学",
+            "weekly_boss": "傀儡的悬丝"
+        }
+    },
+    {
+        "name": "莱依拉",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "永续机芯",
+            "boss": "兆载永劫龙兽",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "月莲",
+            "talent_book": "「巧思」的哲学",
+            "weekly_boss": "无心的渊镜"
+        }
+    },
+    {
+        "name": "流浪者",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "永续机芯",
+            "boss": "兆载永劫龙兽",
+            "common_material": "破旧的刀镡,影打刀镡,名刀镡",
+            "name of magic": "野伏众",
+            "local_specialty": "树王圣体菇",
+            "talent_book": "「笃行」的哲学",
+            "weekly_boss": "空行的虚铃"
+        }
+    },
+    {
+        "name": "珐露珊",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "导光四面体",
+            "boss": "半永恒统辖矩阵",
+            "common_material": "褪色红绸,镶边红绸,织金红绸",
+            "name of magic": "镀金旅团",
+            "local_specialty": "赤念果",
+            "talent_book": "「诤言」的哲学",
+            "weekly_boss": "傀儡的悬丝"
+        }
+    },
+    {
+        "name": "瑶瑶",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "灭诤草蔓",
+            "boss": "无相之草",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "绝云椒椒",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "空行的虚铃"
+        }
+    },
+    {
+        "name": "艾尔海森",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "苍砾蕊羽",
+            "boss": "风蚀沙虫",
+            "common_material": "褪色红绸,镶边红绸,织金红绸",
+            "name of magic": "镀金旅团",
+            "local_specialty": "沙脂蛹",
+            "talent_book": "「巧思」的哲学",
+            "weekly_boss": "无心的渊镜"
+        }
+    },
+    {
+        "name": "迪希雅",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "导光四面体",
+            "boss": "半永恒统辖矩阵",
+            "common_material": "褪色红绸,镶边红绸,织金红绸",
+            "name of magic": "镀金旅团",
+            "local_specialty": "沙脂蛹",
+            "talent_book": "「笃行」的哲学",
+            "weekly_boss": "傀儡的悬丝"
+        }
+    },
+    {
+        "name": "米卡",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "苍砾蕊羽",
+            "boss": "风蚀沙虫",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "钩钩果",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "无心的渊镜"
+        }
+    },
+    {
+        "name": "卡维",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "灭诤草蔓",
+            "boss": "无相之草",
+            "common_material": "失活菌核,休眠菌核,茁壮菌核,蕈兽孢子,荧光孢粉,孢囊晶尘",
+            "name of magic": "蕈兽",
+            "local_specialty": "悼灵花",
+            "talent_book": "「巧思」的哲学",
+            "weekly_boss": "原初绿洲之初绽"
+        }
+    },
+    {
+        "name": "白术",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "常暗圆环",
+            "boss": "深罪浸礼者",
+            "common_material": "失活菌核,休眠菌核,茁壮菌核,蕈兽孢子,荧光孢粉,孢囊晶尘",
+            "name of magic": "蕈兽",
+            "local_specialty": "琉璃袋",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "生长天地之蕨草"
+        }
+    },
+    {
+        "name": "琳妮特",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "奇械发条备件·歌裴莉娅",
+            "boss": "冰风组曲·歌裴莉娅（荒）",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "柔灯铃",
+            "talent_book": "「秩序」的哲学",
+            "weekly_boss": "亘古树海之一瞬"
+        }
+    },
+    {
+        "name": "林尼",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "帝皇的决断",
+            "boss": "铁甲熔火帝皇",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "虹彩蔷薇",
+            "talent_book": "「公平」的哲学",
+            "weekly_boss": "原初绿洲之初绽"
+        }
+    },
+    {
+        "name": "菲米尼",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "奇械发条备件·科培琉司",
+            "boss": "冰风组曲·科培琉司（芒）",
+            "common_material": "异海凝珠,异海之块,异色结晶石",
+            "name of magic": "原海异种",
+            "local_specialty": "海露花",
+            "talent_book": "「正义」的哲学",
+            "weekly_boss": "生长天地之蕨草"
+        }
+    },
+    {
+        "name": "莱欧斯利",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "图比昂装置",
+            "boss": "实验性场力发生装置",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "子探测单元",
+            "talent_book": "「秩序」的哲学",
+            "weekly_boss": "原初绿洲之初绽"
+        }
+    },
+    {
+        "name": "那维莱特",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "原海麟角",
+            "boss": "千年珍珠骏麟",
+            "common_material": "异海凝珠,异海之块,异色结晶石",
+            "name of magic": "原海异种",
+            "local_specialty": "幽光星星",
+            "talent_book": "「公平」的哲学",
+            "weekly_boss": "亘古树海之一瞬"
+        }
+    },
+    {
+        "name": "夏洛蒂",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "图比昂装置",
+            "boss": "实验性场力发生装置",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "苍晶螺",
+            "talent_book": "「正义」的哲学",
+            "weekly_boss": "无光丝线"
+        }
+    },
+    {
+        "name": "芙宁娜",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "未能达成超越之水",
+            "boss": "水形幻人",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "湖光铃兰",
+            "talent_book": "「正义」的哲学",
+            "weekly_boss": "无光质块"
+        }
+    },
+    {
+        "name": "夏沃蕾",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "原海麟角",
+            "boss": "千年珍珠骏麟",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "柔灯铃",
+            "talent_book": "「秩序」的哲学",
+            "weekly_boss": "无光涡眼"
+        }
+    },
+    {
+        "name": "娜维娅",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "奇械发条备件·科培琉司",
+            "boss": "冰风组曲·科培琉司（芒）",
+            "common_material": "异海凝珠,异海之块,异色结晶石",
+            "name of magic": "原海异种",
+            "local_specialty": "初露之源",
+            "talent_book": "「公平」的哲学",
+            "weekly_boss": "无光丝线"
+        }
+    },
+    {
+        "name": "嘉明",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "帝皇的决断",
+            "boss": "铁甲熔火帝皇",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "星螺",
+            "talent_book": "「繁荣」的哲学",
+            "weekly_boss": "无光质块"
+        }
+    },
+    {
+        "name": "闲云",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "凝云鳞甲",
+            "boss": "隐山猊兽",
+            "common_material": "导能绘卷,封魔绘卷,禁咒绘卷",
+            "name of magic": "丘丘萨满",
+            "local_specialty": "清水玉",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "无光涡眼"
+        }
+    },
+    {
+        "name": "千织",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "奇械发条备件·歌裴莉娅",
+            "boss": "冰风组曲·歌裴莉娅（荒）",
+            "common_material": "浮游干核,浮游幽核,浮游晶化核",
+            "name of magic": "飘浮灵",
+            "local_specialty": "血斛",
+            "talent_book": "「天光」的哲学",
+            "weekly_boss": "无光丝线"
+        }
+    },
+    {
+        "name": "希格雯",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "未能达成超越之水",
+            "boss": "水形幻人",
+            "common_material": "异海凝珠,异海之块,异色结晶石",
+            "name of magic": "原海异种",
+            "local_specialty": "海露花",
+            "talent_book": "「公平」的哲学",
+            "weekly_boss": "无光涡眼"
+        }
+    },
+    {
+        "name": "阿蕾奇诺",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "金色旋律的断章",
+            "boss": "魔像督军",
+            "common_material": "新兵的徽记,士官的徽记,尉官的徽记",
+            "name of magic": "愚人众·先遣队,愚人众·债务处理人",
+            "local_specialty": "虹彩蔷薇",
+            "talent_book": "「秩序」的哲学",
+            "weekly_boss": "残火灯烛"
+        }
+    },
+    {
+        "name": "赛索斯",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "凝云鳞甲",
+            "boss": "隐山猊兽",
+            "common_material": "褪色红绸,镶边红绸,织金红绸",
+            "name of magic": "镀金旅团",
+            "local_specialty": "万相石",
+            "talent_book": "「笃行」的哲学",
+            "weekly_boss": "空行的虚铃"
+        }
+    },
+    {
+        "name": "克洛琳德",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "原海麟角",
+            "boss": "千年珍珠骏麟",
+            "common_material": "异海凝珠,异海之块,异色结晶石",
+            "name of magic": "原海异种",
+            "local_specialty": "幽光星星",
+            "talent_book": "「正义」的哲学",
+            "weekly_boss": "亘古树海之一瞬"
+        }
+    },
+    {
+        "name": "艾梅莉埃",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "金色旋律的断章",
+            "boss": "魔像督军",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "湖光铃兰",
+            "talent_book": "「秩序」的哲学",
+            "weekly_boss": "丝织之羽"
+        }
+    },
+    {
+        "name": "卡齐娜",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "过熟的火榴果",
+            "boss": "贪食匿叶龙山王",
+            "common_material": "卫从的木哨,战士的铁哨,龙冠武士的金哨",
+            "name of magic": "部族龙形武士",
+            "local_specialty": "青蜜莓",
+            "talent_book": "「纷争」的哲学",
+            "weekly_boss": "残火灯烛"
+        }
+    },
+    {
+        "name": "基尼奇",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "过熟的火榴果",
+            "boss": "贪食匿叶龙山王",
+            "common_material": "稚嫩的尖齿,老练的坚齿,横行霸者的利齿",
+            "name of magic": "纳塔龙众",
+            "local_specialty": "肉龙掌",
+            "talent_book": "「焚燔」的哲学",
+            "weekly_boss": "否定裁断"
+        }
+    },
+    {
+        "name": "玛拉妮",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "受祝所缚之印",
+            "boss": "金焰绒翼龙暴君",
+            "common_material": "卫从的木哨,战士的铁哨,龙冠武士的金哨",
+            "name of magic": "部族龙形武士",
+            "local_specialty": "浪沫羽鳃",
+            "talent_book": "「角逐」的哲学",
+            "weekly_boss": "无光质块"
+        }
+    },
+    {
+        "name": "希诺宁",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉块",
+            "ascension_boss": "秘刻金纹的源核",
+            "boss": "秘源机兵·构型械",
+            "common_material": "卫从的木哨,战士的铁哨,龙冠武士的金哨",
+            "name of magic": "部族龙形武士",
+            "local_specialty": "灼灼彩菊",
+            "talent_book": "「焚燔」的哲学",
+            "weekly_boss": "无心的渊镜"
+        }
+    },
+    {
+        "name": "恰斯卡",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "深邃纠缠的凝视",
+            "boss": "深邃摹结株",
+            "common_material": "稚嫩的尖齿,老练的坚齿,横行霸者的利齿",
+            "name of magic": "纳塔龙众",
+            "local_specialty": "枯叶紫英",
+            "talent_book": "「纷争」的哲学",
+            "weekly_boss": "丝织之羽"
+        }
+    },
+    {
+        "name": "欧洛伦",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "受祝所缚之印",
+            "boss": "金焰绒翼龙暴君",
+            "common_material": "稚嫩的尖齿,老练的坚齿,横行霸者的利齿",
+            "name of magic": "纳塔龙众",
+            "local_specialty": "微光角菌",
+            "talent_book": "「焚燔」的哲学",
+            "weekly_boss": "无光丝线"
+        }
+    },
+    {
+        "name": "玛薇卡",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "秘刻金纹的源核",
+            "boss": "秘源机兵·构型械",
+            "common_material": "卫从的木哨,战士的铁哨,龙冠武士的金哨",
+            "name of magic": "部族龙形武士",
+            "local_specialty": "枯叶紫英",
+            "talent_book": "「角逐」的哲学",
+            "weekly_boss": "蚀灭的灵犀"
+        }
+    },
+    {
+        "name": "茜特菈莉",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "谜土的护符",
+            "boss": "灵觉隐修的迷者",
+            "common_material": "稚嫩的尖齿,老练的坚齿,横行霸者的利齿",
+            "name of magic": "纳塔龙众",
+            "local_specialty": "青蜜莓",
+            "talent_book": "「焚燔」的哲学",
+            "weekly_boss": "否定裁断"
+        }
+    },
+    {
+        "name": "蓝砚",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "秘刻金纹的源核",
+            "boss": "秘源机兵·构型械",
+            "common_material": "骗骗花蜜,微光花蜜,原素花蜜",
+            "name of magic": "骗骗花",
+            "local_specialty": "清水玉",
+            "talent_book": "「勤劳」的哲学",
+            "weekly_boss": "蚀灭的阳焰"
+        }
+    },
+    {
+        "name": "梦见月瑞希",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "谜土的护符",
+            "boss": "灵觉隐修的迷者",
+            "common_material": "破旧的刀镡,影打刀镡,名刀镡",
+            "name of magic": "野伏众",
+            "local_specialty": "海灵芝",
+            "talent_book": "「浮世」的哲学",
+            "weekly_boss": "残火灯烛"
+        }
+    },
+    {
+        "name": "伊安珊",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "深邃纠缠的凝视",
+            "boss": "深邃摹结株",
+            "common_material": "卫从的木哨,战士的铁哨,龙冠武士的金哨",
+            "name of magic": "部族龙形武士",
+            "local_specialty": "琉鳞石",
+            "talent_book": "「角逐」的哲学",
+            "weekly_boss": "否定裁断"
+        }
+    },
+    {
+        "name": "瓦雷莎",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "龙像的无智核",
+            "boss": "熔岩辉龙像",
+            "common_material": "稚嫩的尖齿,老练的坚齿,横行霸者的利齿",
+            "name of magic": "纳塔龙众",
+            "local_specialty": "云岩裂叶",
+            "talent_book": "「纷争」的哲学",
+            "weekly_boss": "蚀灭的鳞羽"
+        }
+    },
+    {
+        "name": "爱可菲",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "秘源积气喉",
+            "boss": "秘源机兵·统御械",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "苍晶螺",
+            "talent_book": "「正义」的哲学",
+            "weekly_boss": "蚀灭的灵犀"
+        }
+    },
+    {
+        "name": "丝柯克",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉块",
+            "ascension_boss": "深邃纠缠的凝视",
+            "boss": "深邃摹结株",
+            "common_material": "啮合齿轮,机关正齿轮,奇械机芯齿轮",
+            "name of magic": "发条机关",
+            "local_specialty": "云岩裂叶",
+            "talent_book": "「角逐」的哲学",
+            "weekly_boss": "升扬样本·骑士"
+        }
+    },
+    {
+        "name": "伊法",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "龙像的无智核",
+            "boss": "熔岩辉龙像",
+            "common_material": "稚嫩的尖齿,老练的坚齿,横行霸者的利齿",
+            "name of magic": "纳塔龙众",
+            "local_specialty": "肉龙掌",
+            "talent_book": "「纷争」的哲学",
+            "weekly_boss": "升扬样本·战车"
+        }
+    },
+    {
+        "name": "塔利雅",
+        "star rating": "四星",
+        "weapon": "单手剑",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金断片",
+            "ascension_boss": "秘源积气喉",
+            "boss": "秘源机兵·统御械",
+            "common_material": "牢固的箭簇,锐利的箭簇,历战的箭簇",
+            "name of magic": "丘丘射手",
+            "local_specialty": "嘟嘟莲 ",
+            "talent_book": "「诗文」的哲学",
+            "weekly_boss": "蚀灭的鳞羽"
+        }
+    },
+    {
+        "name": "伊涅芙",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "秘源积气喉",
+            "boss": "秘源机兵·统御械",
+            "common_material": "卫从的木哨,战士的铁哨,龙冠武士的金哨 ",
+            "name of magic": "部族龙形武士",
+            "local_specialty": "微光角菌 ",
+            "talent_book": "「纷争」的哲学",
+            "weekly_boss": "蚀灭的阳焰"
+        }
+    },
+    {
+        "name": "菈乌玛",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "承光的鳞羽",
+            "boss": "蕴光月幻蝶",
+            "common_material": "磨损的执凭,精致的执凭,霜镌的执凭",
+            "name of magic": "愚人众·特辖队",
+            "local_specialty": "月落银 ",
+            "talent_book": "「月光」的哲学",
+            "weekly_boss": "蚀灭的鳞羽"
+        }
+    },
+    {
+        "name": "菲林斯",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "雷",
+        "materials": {
+            "ascension_gem": "最胜紫晶块",
+            "ascension_boss": "精密型月矩力冲鸭模具",
+            "boss": "重拳出击鸭",
+            "common_material": "毁损机轴,加固机轴,精制机轴",
+            "name of magic": "巡陆艇",
+            "local_specialty": "霜盏花 ",
+            "talent_book": "「浪迹」的哲学",
+            "weekly_boss": "升扬样本·王族"
+        }
+    },
+    {
+        "name": "爱诺",
+        "star rating": "四星",
+        "weapon": "双手剑",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金块",
+            "ascension_boss": "精密型月矩力冲鸭模具",
+            "boss": "重拳出击鸭",
+            "common_material": "毁损机轴,加固机轴,精制机轴",
+            "name of magic": "巡陆艇",
+            "local_specialty": "便携轴承  ",
+            "talent_book": "「乐园」的哲学",
+            "weekly_boss": "丝织之羽"
+        }
+    },
+    {
+        "name": "奈芙尔",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "草",
+        "materials": {
+            "ascension_gem": "生长碧翡块",
+            "ascension_boss": "漫光的辉角",
+            "boss": "霜夜巡天灵主",
+            "common_material": "磨损的执凭,精致的执凭,霜镌的执凭",
+            "name of magic": "愚人众·特辖队",
+            "local_specialty": "月落银 ",
+            "talent_book": "「乐园」的哲学",
+            "weekly_boss": "升扬样本·战车"
+        }
+    },
+    {
+        "name": "杜林",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙块",
+            "ascension_boss": "循环式军用月矩核心",
+            "boss": "超重型陆巡舰·机动战垒",
+            "common_material": "磨损的执凭,精致的执凭,霜镌的执凭",
+            "name of magic": "愚人众·特辖队",
+            "local_specialty": "霜盏花 ",
+            "talent_book": "「诗文」」的哲学",
+            "weekly_boss": "蚀灭的阳焰"
+        }
+    },
+    {
+        "name": "雅珂达",
+        "star rating": "四星",
+        "weapon": "弓",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "承光的鳞羽",
+            "boss": "蕴光月幻蝶",
+            "common_material": "毁损机轴,加固机轴,精制机轴",
+            "name of magic": "巡陆艇",
+            "local_specialty": "便携轴承  ",
+            "talent_book": "「浪迹」的哲学",
+            "weekly_boss": "升扬样本·骑士"
+        }
+    },
+    {
+        "name": "哥伦比娅",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "水",
+        "materials": {
+            "ascension_gem": "涤净青金",
+            "ascension_boss": "漫光的辉角",
+            "boss": "霜夜巡天灵主",
+            "common_material": "史莱姆凝液,史莱姆清,史莱姆原浆",
+            "name of magic": "史莱姆",
+            "local_specialty": "冬凌草",
+            "talent_book": "「月光」的哲学",
+            "weekly_boss": "贤医的假面"
+        }
+    },
+    {
+        "name": "兹白",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉",
+            "ascension_boss": "魇翼枯骸",
+            "boss": "深黯魇语之主",
+            "common_material": "磨损的执凭,精致的执凭,霜镌的执凭",
+            "name of magic": "愚人众·特辖队",
+            "local_specialty": "琉璃百合",
+            "talent_book": "「黄金」的哲学",
+            "weekly_boss": "升扬样本·王族"
+        }
+    },
+    {
+        "name": "叶洛亚",
+        "star rating": "四星",
+        "weapon": "长柄武器",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉",
+            "ascension_boss": "循环式军用月矩核心",
+            "boss": "超重型陆巡舰·机动战垒",
+            "common_material": "毁损机轴,加固机轴,精制机轴",
+            "name of magic": "巡陆艇",
+            "local_specialty": "松珀香",
+            "talent_book": "「乐园」的哲学",
+            "weekly_boss": "蚀灭的灵犀"
+        }
+    },
+    {
+        "name": "法尔伽",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "棱光的断尾",
+            "boss": "蕴光月守宫",
+            "common_material": "毁损机轴,加固机轴,精制机轴",
+            "name of magic": "巡陆艇",
+            "local_specialty": "钩钩果",
+            "talent_book": "「自由」的哲学",
+            "weekly_boss": "升扬样本·战车"
+        }
+    },
+    {
+        "name": "莉奈娅",
+        "star rating": "五星",
+        "weapon": "弓",
+        "element": "岩",
+        "materials": {
+            "ascension_gem": "坚牢黄玉",
+            "ascension_boss": "堕天的落羽",
+            "boss": "守望者・堕天",
+            "common_material": "磨损的执凭,精致的执凭,霜镌的执凭",
+            "name of magic": "愚人众·特辖队",
+            "local_specialty": "空羽蛾",
+            "talent_book": "「浪迹」的哲学",
+            "weekly_boss": "异端的瓶剂"
+        }
+    },
+    {
+        "name": "洛恩",
+        "star rating": "五星",
+        "weapon": "长柄武器",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "哀叙冰玉",
+            "ascension_boss": "棱光的断尾",
+            "boss": "蕴光月守宫",
+            "common_material": "牢固的箭簇,锐利的箭簇,历战的箭簇",
+            "name of magic": "丘丘射手",
+            "local_specialty": "空羽蛾",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "升扬样本·骑士"
+        }
+    },
+    {
+        "name": "尼可",
+        "star rating": "五星",
+        "weapon": "法器",
+        "element": "火",
+        "materials": {
+            "ascension_gem": "燃愿玛瑙",
+            "ascension_boss": "魇翼枯骸",
+            "boss": "深黯魇语之主",
+            "common_material": "磨损的执凭,精致的执凭,霜镌的执凭",
+            "name of magic": "愚人众·特辖队",
+            "local_specialty": "松珀香",
+            "talent_book": "「乐园」的哲学",
+            "weekly_boss": "赝作的树脂"
+        }
+    },
+    {
+        "name": "布伦妮",
+        "star rating": "四星",
+        "weapon": "法器",
+        "element": "风",
+        "materials": {
+            "ascension_gem": "自在松石块",
+            "ascension_boss": "漫光的辉角",
+            "boss": "霜夜巡天灵主",
+            "common_material": "寻宝鸦印,藏银鸦印,攫金鸦印",
+            "name of magic": "盗宝团",
+            "local_specialty": "冬凌草",
+            "talent_book": "「抗争」的哲学",
+            "weekly_boss": "贤医的假面"
+        }
+    },
+    {
+        "name": "桑多涅",
+        "star rating": "五星",
+        "weapon": "双手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "",
+            "ascension_boss": "堕天的落羽",
+            "boss": "守望者・堕天",
+            "common_material": "毁损机轴,加固机轴,精制机轴",
+            "name of magic": "",
+            "local_specialty": "子探测单元",
+            "talent_book": "「浪迹」的哲学",
+            "weekly_boss": "狂人的约束"
+        }
+    },
+    {
+        "name": "奥黛塔",
+        "star rating": "五星",
+        "weapon": "单手剑",
+        "element": "冰",
+        "materials": {
+            "ascension_gem": "",
+            "ascension_boss": "焰中不灭花枝",
+            "boss": "",
+            "common_material": "幻造萤屑,幻造裂晶,幻造晶鳞石",
+            "name of magic": "",
+            "local_specialty": "霜仙花",
+            "talent_book": "「慈爱」的哲学",
+            "weekly_boss": "扭曲的枯枝"
+        }
+    }
+]
